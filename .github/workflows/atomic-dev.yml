@@ -3,7 +3,7 @@ name: "Build Atomic Dev image"
 env:
   IMAGE_NAME: atomic-dev
   IMAGE_TAGS: latest ${{ github.sha }}
-  IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
+  IMAGE_REGISTRY: ghcr.io/buddiesofbudgie
   REGISTRY_USER: ${{ github.actor }}
   REGISTRY_PASSWORD: ${{ github.token }}
 
