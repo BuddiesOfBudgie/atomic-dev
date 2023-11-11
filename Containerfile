@@ -27,7 +27,7 @@ RUN rpm-ostree install \
   libcanberra-devel \
   libgee-devel \
   libnotify-devel \
-  libpeas-devel \
+  libpeas1-devel \
   libSM-devel \
   libuuid-devel \
   libwnck3-devel \
