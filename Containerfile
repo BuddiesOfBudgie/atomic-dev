@@ -42,4 +42,5 @@ RUN rpm-ostree install \
   vala \
   xorg-x11-xtrans-devel && \
   rm -rf /var/lib/unbound/root.key && \
+  ln -sfv /usr/bin/ld.bfd /usr/bin/ld && \
   ostree container commit
