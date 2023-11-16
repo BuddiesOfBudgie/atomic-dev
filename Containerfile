@@ -8,6 +8,7 @@ LABEL org.opencontainers.image.licenses=MIT
 RUN rpm-ostree install \
   accountsservice-devel \
   alsa-lib-devel \
+  clang \
   desktop-file-utils \
   gettext \
   git \
