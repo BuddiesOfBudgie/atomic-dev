@@ -12,16 +12,12 @@ RUN rpm-ostree install \
   desktop-file-utils \
   gettext \
   git \
-  glib2-devel \
-  gnome-bluetooth3.34-libs-devel \
   gnome-desktop3-devel \
-  gnome-menus-devel \
   gnome-settings-daemon-devel \
   gobject-introspection-devel \
   gsettings-desktop-schemas-devel \
   gstreamer1-devel \
   gtk-doc \
-  gtk3-devel \
   ibus-devel \
   intltool \
   json-glib-devel \
@@ -33,6 +29,7 @@ RUN rpm-ostree install \
   libuuid-devel \
   libwnck3-devel \
   libX11-devel \
+  libxfce4windowing-devel \
   libXtst-devel \
   magpie-devel \
   meson \
